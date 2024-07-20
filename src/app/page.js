@@ -1,8 +1,8 @@
-import header from "./Cpmponents/header.jsx";
+
 import TaskInput from "./Cpmponents/task.js";
 import Task from "./Cpmponents/taskinput.js";
 import Footer from "./Cpmponents/footet.js";
-import Header from "./Cpmponents/header.jsx";
+import Header from "./Cpmponents/header.js";
 
 export default function Home() {
   const task = [
