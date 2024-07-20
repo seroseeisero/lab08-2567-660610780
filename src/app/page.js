@@ -1,7 +1,8 @@
-import header from "./Cpmponents/header.js";
+import header from "./Cpmponents/header.jsx";
 import TaskInput from "./Cpmponents/task.js";
 import Task from "./Cpmponents/taskinput.js";
 import Footer from "./Cpmponents/footet.js";
+import Header from "./Cpmponents/header.jsx";
 
 export default function Home() {
   const task = [
@@ -11,7 +12,7 @@ export default function Home() {
   ];
   return (
     <div className="container mx-auto">
-        <Header></Header>
+      <Header></Header>
       <div style={{ maxWidth: "400px" }} className="mx-auto">
         <TaskInput></TaskInput>
 
